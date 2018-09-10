@@ -1,0 +1,166 @@
+/*background color: rgb(246,246,246)*/
+
+* {
+    font-family: 'Oswald', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.gray-background{
+     background-color: rgb(246, 246, 246);
+}
+
+.secondary-font {
+    font-family: 'Roboto Slab', serif;
+}
+
+.full-screen-container {
+    width: 100%;
+    height: 90vh;
+    position: absolute;
+    top: 4vw;
+}
+
+
+.raised {
+    z-index: 1;
+}
+
+.toolbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 4vw;
+}
+.bottom-border {
+    border-bottom: .3vh solid rgb(228,228,228);
+}
+
+.flex-container {
+    display: flex;
+}
+
+.toolbar-square-button {
+    height: 4vw;
+    width: 4vw;
+}
+
+.toolbar-square-button img{
+    width: 1.5vw;
+    margin: 0 auto;
+    padding-top: 1.25vw;
+    padding-left: 1.25vw;
+}
+
+.right-border {
+     border-right: .3vh solid rgb(228,228,228);
+}
+
+.toolbar-search-container {
+    width: 36vw;
+    height: 4vw;
+}
+
+.toolbar-logo-container {
+    width: 51vw;
+    height: 4vw;
+}
+
+.green-background {
+    background-color: rgb(74, 189, 83);
+}
+
+.primary-action-container {
+    width: 24%;
+    margin-top: 1%;
+    height: 15vh;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
+
+.primary-action-icon-container {
+    width: 50%;
+    height: 100%;
+}
+
+
+.primary-action-info-container {
+    width: 50%;
+    height: 100%;
+    border-left: 4px solid white;
+    padding-left: 10%;
+}
+
+.text-align-center {
+    text-align: center;
+}
+
+.primary-action-icon {
+    height: 80%;
+    margin-top: 10%;
+    margin-left: 20%;
+}
+
+.white-text {
+    color: white;
+}
+
+.primary-action-title {
+    font-weight: 700;
+    font-size: 2.2vw;
+    line-height: 2.2vw;
+    margin-top: 10%;
+}
+
+.primary-action-subtitle {
+    font-weight: 300;
+    font-size: 1vw;
+    line-height: 1vw;
+}
+
+.primary-action-text {
+    font-weight: 300;
+    font-size: 1vw;
+    line-height: 1vw;
+    width: 75%;
+}
+
+.centered-flex {
+    justify-content: center;
+}
+
+.left-grid-margin {
+    margin-left: .4%;
+}
+
+.right-grid-margin {
+    margin-right: .4%;
+}
+
+
+.blue-background {
+    background-color: #0ba5de;
+}
+
+.yellow-background {
+    background-color: rgb(209, 202, 9);
+}
+
+.red-background {
+    background-color: rgb(230, 9, 20);
+}
+
+.relative-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.dialog-information {
+    background: white;
+    height: 100%;
+    width: 100%;
+    border: 1px solid rgb(74,74,74);
+    border-radius: 7px;
+}

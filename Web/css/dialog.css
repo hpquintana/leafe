@@ -1,0 +1,222 @@
+
+.dialog {
+    width: 100%;
+    height: 100vh;
+    background: rgba(16,16,16,.8);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    display: none;
+}
+
+
+
+.close-button {
+    position: absolute;
+    top: 4%;
+    left: 2%;
+    width: 24px;
+    height: 24px;
+}
+
+.close-button:hover{
+    cursor: pointer;
+}
+
+.dialog-container {
+    width: 80vw;
+    height: 90vh;
+    margin: 5vh auto;
+    background: rgb(245,245,245);
+    border: 1px solid rgb(74,74,74);
+    border-radius: 7px;
+
+}
+
+
+
+.spinner {
+    width: 5%;
+    margin-top: 30%;
+    display: none;
+}
+
+.form-list-container {
+    width: 60%;
+    height: 40%;
+    border: 1px solid rgb(214,214,214);
+    margin: 0 auto;
+    -webkit-box-shadow: inset 0 2px 6px #e8e8e8;
+    box-shadow: inset 0 2px 6px #e8e8e8;
+    overflow-y: scroll;
+}
+
+.dialog-title {
+    font-size: 1.5vw;
+    color: rgb(39,39,39);
+    padding: 2vh 0;
+}
+
+.dialog-button {
+    background-color: rgb(74, 189, 83);
+    width: 15vw;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 5vh;
+    display: none;
+}
+
+.dialog-button:hover{
+    cursor: pointer;
+}
+
+.dialog-button-text {
+    color: white;
+    font-weight: 700;
+    font-size: 1.2vw;
+    letter-spacing: 2px;
+}
+
+.form-list-element {
+    border-bottom: 1px solid rgb(214,214,214);
+    height: 5vh;
+}
+
+.form-list-hover:hover{
+    background-color: rgb(235, 235, 235);
+}
+
+.form-list-element > p {
+    color: rgb(152, 152, 152);
+    text-align: left;
+    line-height: 5vh;
+    padding: 0 1vw;
+    font-weight: 300;
+}
+
+.dialog-instructions > p{
+    color: white;
+    font-size: .9vw;
+}
+
+.active {
+    background: rgb(224, 224, 224);
+}
+
+.dialog-subcontainer {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.dialog-instructions {
+    background: black;
+    border-radius: 25px;
+    width: 20%;
+    padding: .5vh 1vw;
+    position: absolute;
+    bottom: 2vh;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    display: none;
+}
+
+.dialog-icon {
+    width: 128px;
+    height: 128px;
+    margin: 0 auto;
+    margin-top: 4vh;
+    margin-bottom: 2vh;
+}
+
+#page-1 {
+    display: none;
+}
+
+.details-container {
+    width: 30%;
+    height: 100%;
+    text-align: left;
+    padding-left: 5%;
+}
+
+.details-container > p {
+    font-weight: 300;
+    color: rgb(129, 129, 129);
+    letter-spacing: 1px;
+    font-size: 1vw;
+    text-align: left;
+    margin-top: 1vh;
+    margin-bottom: .5vh;
+}
+.details-container > h2{
+    margin-top: 5vh;
+    font-weight: 300;
+    color: rgb(42,42,42);
+    font-size: 2vw;
+    text-align: left;
+}
+
+input[type=text], input[type=date]{
+    width: 80%;
+    height: 3vh;
+    font-size: 1vw;
+}
+
+
+.customer-details-container {
+    width: 80%;
+    height: 50%;
+    margin: 0 auto;
+}
+
+.middle-border {
+    border-left: 1px solid rgb(193,193,193);
+    border-right: 1px solid rgb(193,193,193);
+}
+
+#form-select-button {
+    display: inline-block;
+}
+
+.large-title {
+    font-size: 4vw;
+    margin-top: 2vh;
+}
+
+#page-2 {
+    display: none;
+}
+
+#page2-select-button {
+    display: inline-block;
+}
+
+#page-3 {
+    display: none;
+}
+
+.assign-order-container {
+    width: 40%;
+}
+
+.meta-data-container {
+    position: absolute;
+    right: 1%;
+    top: 2%;
+    width: 10vw;
+}
+
+.invoice-number {
+    color: red;
+    font-weight: 700;
+}
+
+#date-number {
+    color: rgb(39,39,39);
+    font-weight: 300;
+    margin-left: 5%;
+}

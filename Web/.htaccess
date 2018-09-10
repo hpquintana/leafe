@@ -1,0 +1,12 @@
+AddHandler application/x-httpd-php56 .php .php5 .php4 .php3
+Options -MultiViews
+RewriteEngine On
+DirectoryIndex index.html index.htm index.php index.php3
+# remove browser bugs
+BrowserMatch ^Mozilla/4 gzip-only-text/html
+BrowserMatch ^Mozilla/4\.0[678] no-gzip
+BrowserMatch \bMSIE !no-gzip !gzip-only-text/html
+Header append Vary User-Agent
+# Variables
+SetEnv AWS_ACCESS_KEY_ID "AKIAJFNXMNVI43JNYSOA"
+SetEnv AWS_SECRET_ACCESS_KEY "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"
